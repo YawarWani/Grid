@@ -1,0 +1,16 @@
+table,th,td
+{
+    border: 4px solid orangered;
+    border-collapse:collapse;
+   
+    padding: 10px;
+    margin: 10px;
+}
+th{
+    color: red;background: greenyellow;
+    
+}
+td{
+    background-color: aqua;
+    font-style: italic;
+}

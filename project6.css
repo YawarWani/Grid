@@ -1,0 +1,345 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    scroll-behavior: smooth;
+    scroll-margin-top: 30px;
+}
+.container
+{
+    padding: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* height: 40px; */
+    
+}
+/* Header navigation section
+*/
+nav
+{
+    background-color: rgb(3, 3, 45);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 6px 8px 3px lightcyan;
+}
+.navigation
+{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.navigation a
+{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.02);
+
+
+}
+.navigation .myTunes  a
+{
+    font-size: 60px;
+}
+.navigation a:hover
+{
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    /* text-decoration: underline; */
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    transform: scale(1px);
+}
+.content
+{
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+/* .hero_image
+{
+    background: blue;
+} */
+.hero_image 
+{
+    background-image: url("/hero_image.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    display: grid;
+    width: 100%;
+   height: 100vh;
+   place-items: center;
+   text-align: center;
+    /* height: 100vh; */
+    
+}
+/* .hero_text
+{
+    /* display: flex; */
+    /* position: ;
+    top: 0px; */
+ 
+.text
+{
+    /* overflow: visible; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   
+   /* align-items: center; */
+   
+
+}
+.text h1{
+    font-size: 100px;
+}
+.text h2
+{
+font-size: 30px;
+}
+.text h3
+{
+font-size: 20px;
+}
+.music
+{
+    padding-top: 50px;
+    background-color: #281154;
+    color:white;
+   
+}
+.container2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+.iphone
+{
+    margin-top: -300px;
+    position: relative;
+    top:350px;
+}
+button
+{
+    padding: 9px;
+    background-color: rgba(255, 200, 80, 0.179);   
+     transition:0.3s ease-in-out; 
+     color: white;  
+
+}
+button:hover
+{
+    background: white;
+    color: black;
+    transition:0.2s ease-in-out;   
+}
+.tv
+{
+    max-width: 800px;
+    padding-top:  400px;
+    display:flex;
+    
+    /* place-items: center; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-transform: capitalize;
+}
+.tv p
+{
+    font-size: large;
+}
+.tv button
+{
+    padding: 6px;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+.tv button:hover
+{
+    background-color: cornflowerblue;
+    color:#281154;
+    transition:0.3s ease-in-out;
+}
+/* Gift card css */
+.gift
+{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    
+}
+.giftcard_content
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: start;
+}
+.border button
+{
+background-color: chocolate;
+}
+footer
+{
+    margin-top: 30px;
+    background-color: #281154;
+
+}
+.foot
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.foot ul
+{
+    list-style-type: none;
+}
+.foot ul li
+{
+    padding: 6px;
+}
+.foot h2
+{
+    text-decoration: underline;
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive website  */
+@media(max-width:786px)
+{
+    
+    .navigation
+    {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        box-shadow: 0px 0px 0px rgb(210, 116, 2);
+
+    }
+    
+    .content
+    {
+
+        flex-direction: column;
+        gap: 1px;
+    }
+    .hero_image
+    {
+       background-attachment: scroll;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        /* background-size: contain;
+       overflow: scroll;
+        background-size: 100vw;
+        background-size: cover;
+        
+        /* background-position: center; */
+        /* background-size: 100vh; */
+        /* margin-bottom: 50px;  */
+    }
+    /* .Hero
+    {
+        margin: -70px;
+    } */
+    .text h1
+    {
+       font-size: 35px;     
+    }
+    .text h2
+    {
+        font-size: 20px;    
+    }
+    .text h3
+    {
+        font-size:14px;    
+        letter-spacing:0.3px;
+    }
+    .navigation h1{
+
+            font-size:30px;
+    }
+    .navigation a
+    {
+            font-size: 15px;
+    }
+    .navigation a:hover
+    {
+        color: rgb(24, 38, 118);
+        border-radius: 4px;
+
+    }
+    .text h3
+    {
+        padding-bottom: 25px;
+        
+    }
+    /* .hero_image 
+    {
+       /* display: grid; */
+        /* place-items:center; */
+        padding-top: 60px;
+        align-items: start;
+        
+    } */
+    .music
+    {
+        flex-direction:column ;
+        /* margin-top: -80px; */
+        /* margin-bottom: 50px; */
+        height: 70vh;
+    }
+    .iphone img,.laptop img
+    {
+       width: 100%;
+       margin-top: 70px;
+       
+    }
+    .foot
+    {
+        flex-direction: column;
+    }
+    .gift{
+        flex-direction: column;
+    }
+    .giftc img
+    {
+        width: 100%;
+    }
+
+}
+

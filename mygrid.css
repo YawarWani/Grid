@@ -1,0 +1,19 @@
+.container
+{
+    background-color: black;
+    height: 100vw;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+}
+.Box1,.Box2,.Box3,.Box4
+{
+
+    /* align-self: flex-start; */
+    border: 2px solid white;
+    /* width: 50px; */
+
+}

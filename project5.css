@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 50; */
+    position:sticky;
+}
+
+.container
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+nav{
+    box-shadow: 3px 4px 2px gray;
+    margin: 0;
+    margin-bottom: 19px;
+    position:sticky;
+   
+    
+}
+.hero
+{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.hero_content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.tag
+{
+    padding: 6px;
+    background-color:#149f39;
+    align-items:center;
+    align-self: flex-start;   
+}
+.hero_content h1
+{
+    font-size: 72px;
+    font-weight: 200;
+}
+.hero_content .text1
+{
+    padding: 5px;
+    display: flex;
+    align-self: flex-start;
+    background-color: rgb(235, 201, 8);
+}
+.butt
+{
+    display: flex;
+    align-self: flex-start;
+    padding: 8px;
+    background-color: chocolate;
+    color: white;
+    letter-spacing: 0.3px;
+    border-radius: 6px;
+}
+@media(max-width:786px)
+{
+    .hero
+    {
+        flex-direction: column;
+    }
+    .hero_image
+{
+    display: flex;
+justify-content: center;
+}
+    .hero_image img
+    {
+    width:80%;
+    }
+    .hero_content
+    {
+        /* font-size: 32px; */
+        gap:10px;
+        padding:10px;
+    }
+    .hero_content h1
+{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.villian
+{
+    flex-direction: column;
+}
+.feature img
+{
+    width: 70px;
+}
+.feature
+{
+    flex-direction: column;
+}
+.explore
+{
+    /* background-color: #149f39;width: 100%; */
+    /* left: 5%; */
+    width: 20px;
+    font-size: 500px;
+    margin-bottom: 11px;
+    margin-top: 11px;
+      
+}
+.explore span
+{
+
+    font-size: 30px;
+    line-height: 2px;
+}
+.Menu
+{
+    font-family: serif;
+}
+.footer
+{
+    height: 50vh;
+}
+.footer1
+{
+    background: #fff0df;
+    flex-direction: column;
+    /* row-gap: 20px; */
+    gap: 10px;
+}
+.icon_container
+{
+    flex-direction: column;
+}
+/* .last
+{
+    background: gainsboro;
+    height: 50vh;
+} */
+
+}
+.villian
+{
+    /* width: 100%; */
+    /* background-color: beige; */
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+/* .discount_icon
+{
+    display: flex;
+    gap:20px;
+}
+.Fresh
+{
+    display: flex;
+    max-width: 200px;
+    gap:20px;
+    
+    
+} */
+.feature
+{
+    display: flex;
+    justify-content: content;
+    /* max-width: 290px; */
+    gap:20px;
+    max-width: 290px;
+ padding: 5px;
+    
+}
+.feature:hover
+{
+    transform: scale(1.1);
+    box-shadow: 2px 5px 3px grey;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.diveder
+{
+    margin-top:  65px;
+    /* margin-bottom: 20px; */
+    border:1px solid grey;
+}
+.Menu
+{
+    max-width: 90px;
+    position: relative;
+    left: 50%;
+   margin-bottom: 30px;
+   background-color: #149f39;
+   padding: 10px;
+
+    
+}
+.explore
+{
+    position:relative;
+    left: 43%;
+    margin-bottom: 20px;
+    font-size: 47px;
+    font-weight: 0;
+
+      
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50x 0;
+    
+}
+.grid
+{
+display: grid;
+gap: 10px;
+grid-template-areas: "I1 I1 I2 I3"
+"I1 I1 I2 I7"
+"I4 I5 I6 I7";
+transition: 0.3s ease-in-out;
+
+}
+.item1
+{
+    grid-area: I1;
+}
+.item2
+{
+    grid-area: I2;
+}
+.item3
+{
+    grid-area: I3;
+}
+.item4
+{
+    grid-area: I4;
+}
+.item5
+{
+    grid-area: I5;
+}
+.item6
+{
+    grid-area: I6;
+}
+.item7
+{
+    grid-area: I7;
+}
+.images_hover:hover
+{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.02);
+}
+.images_hover
+{
+    width :100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.grid img
+{
+    height: 100%;
+}
+footer
+{
+    background: #fff0df ;
+}
+.footer1
+{
+    padding: 80px;
+    /* background: coral; */
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    height: 50vh;
+
+}
+.icon_container
+{
+    display: flex;
+    gap: 5px;
+}

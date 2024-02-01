@@ -1,0 +1,95 @@
+.developer
+{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/developer.png");
+}
+.devtext
+{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.small
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.fulldev
+{
+    font-size: 100px
+}
+.work
+{
+    background-color: black;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top:19px;
+    font-size: 40px;
+    font-weight: 0.1px;
+}
+.block
+{
+    max-width: 900px;
+    margin: 0 90px;
+    margin-top: 15px;
+    /* background: yellow; */
+    height: 635px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
+    column-gap: 100px;
+}
+.image1,.image2,.image3
+
+{
+    border-radius: 16px;
+    /* border: 3px solid green; */
+    width: 270px;
+     height: 490px;
+     box-shadow:7px 2px 5px grey;
+
+/* background-color: brown; */
+}
+.image1
+{
+    background-image: url("/mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image2
+{
+    background-image: url("/web.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image3
+{
+
+    background-image: url("/uiux.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.itext1,.head1,.itext2,.head2,.itext3,.head3
+{
+    position: relative;
+    top: 35%;
+    /* background-color:gray; */
+}
+.head1,.head2,.head3
+{
+    font-size: 27px;
+    font-weight: bolder;
+   padding-left: 35px;
+   padding-bottom: 9px;
+}
+.image1:hover,.image2:hover,.image3:hover
+{
+    background-color:lightgray;
+    transition: 0.2s ease-in-out;
+}

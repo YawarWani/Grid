@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: green;
+    text-align: center;
+    height: 20  vh;
+    padding-top: 14px;
+    padding-top: 14px;
+    padding-top: 14px;
+    font-size:xx-large ;
+}
+.free
+{
+    font-size:x-large;
+ color:black;   
+ background-color: aqua;
+}
+nav
+{
+    background-color: green;
+}
+nav ul li a{
+    color: black;
+    font-size: x-large;
+    text-decoration:dotted;
+}
+nav ul li{
+display: inline;
+padding: 8px;
+}
+*{
+    background-color: green;
+}
+form
+{
+    background-color: aquamarine;
+}
+form input
+{
+    font-size: xx-large;
+    background-color: AQUA;
+}
+form label
+{
+    font-size: x-large;
+    color:aliceblue
+    
+}

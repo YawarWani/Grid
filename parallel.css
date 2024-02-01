@@ -1,0 +1,105 @@
+.container
+{
+    /* background-color: green; */
+  height: 100vh;
+    
+}
+.image1
+{
+    background-image: url(/image1.png );
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+    background-size:cover;
+    /* align-items: center; */
+    background-attachment: fixed;
+}
+.nature
+{
+    background-color: white;
+    text-align: justify;
+   letter-spacing: 0.5px;
+   word-spacing: 9px;
+
+}
+.heading1,.heading2
+{
+    display: flex;
+    justify-content:center;
+}
+.parra
+{
+    color:white ;
+    position:absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   
+   
+ }
+  .natura1
+{
+    background: black;
+    word-spacing: 9px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.image2
+{
+    background-image: url(/image2.png );
+   height: 57vh;
+   position: relative;
+    background-size:cover;
+    background-position: center;
+   background-attachment: fixed;
+
+}
+.section2
+{
+    /* background-color: grey; */
+    position: absolute;
+    top:50%;
+    width: 100vw;
+    text-align: center;
+
+}
+.nature2
+{
+    background: black;
+    color: white;
+    padding: 20px;
+    letter-spacing: 5px;
+text-transform: uppercase; ;
+}
+.explore
+{
+
+    text-align: justify;
+    
+}
+.image3
+{
+    background-image: url(/image3.png );
+    height: 100vh;
+    position: relative;
+     background-size:cover;
+     background-position: center;
+     background-attachment: fixed;
+    }
+.nature3
+{
+    position: absolute;
+    top:50%;
+    width: 100vw;
+    text-align: center;
+
+}
+.code
+{
+    background: black;
+    color: white;
+    padding: 20px;
+    letter-spacing: 5px;
+text-transform: uppercase;
+}
